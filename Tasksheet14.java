@@ -5,7 +5,7 @@ public class Tasksheet14{
         String message;
 
         for (int i= 1; i<= check_number; i++){
-            message = (i %2==0)? i+ "is an even number": i+ "is an odd number";
+            message = (i %2==0)? i+ " is an even number": i+ " is an odd number";
             
             System.out.println(message);
 
